@@ -1,0 +1,197 @@
+body {
+	width: 1340px;
+	background-color: #f1f2f2;
+}
+
+/* For background*/
+
+.bg {
+    background:linear-gradient(0deg,rgba(28,37,65,0.9),rgba(28,37,65,0.9)),url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 20px 40px 150px 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+/* For logo Text*/
+
+p.logo-text {
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	font-style: bold;
+	top: 0px;
+	line-height: 0;
+	padding: 0px;
+	line-height: 0;
+
+}
+
+/* For title heading Thank you*/
+
+p.title-heading {
+    padding: 10px 0px 0px 0px;
+    font-size: 150px;
+    margin-bottom: 0px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+/* For content text */
+
+p.content-text {
+    font-size: 25px;
+    width: 1108px;
+    margin: auto;
+}
+
+/* For download button*/
+.btn-download {
+	font-family: 'Playfair Display', serif;
+    background-color: rgb(79, 221,202); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-style: italic;
+    padding-left: 20px;
+    margin: 65px auto;
+
+}
+
+/* For head content in grid */
+
+p.sub-head-content {
+	font-family: 'Playfair Display', serif;
+	padding: 35px 0px 0px 0px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* For content in head*/
+
+p.sub-head-main-content {
+	font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/*For main wrapper*/
+
+.wrapper {
+	display: flex;
+	margin: auto;
+	width: 100%;
+    
+}
+
+/* For New heading content*/
+
+.templates {
+	margin-bottom: 10px;
+}
+
+/*Main grid layout */
+
+.grid {
+    display: flex;
+    margin: 72px 9% 100px 9%;
+}
+
+/*For all h2 in content-container*/
+.content-container-2 > h2 {
+    font-size: 49px;
+    margin-left: 1px;
+}
+
+/*For all p in content-container*/
+.content-container-2 > p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(186, 187, 189);
+    margin: -17px auto;
+    width: 699px;
+    word-spacing: 1px;
+    line-height: 30px;
+}
+
+/*for aligning all the button in grid layout */
+.center {
+    margin: auto;
+}
+
+/*For container column in grid*/
+.column {
+    margin: 0 5px;
+    width: 90%;
+}
+
+/*For button in grid*/
+.btn {
+    padding: 16px 0px 14px 0px;
+    margin: 109px auto 40px 11px;
+    height: 30px;
+    width: 145px;
+    text-align: center;
+    background-color: rgb(79, 221, 202);
+}
+
+/*		For all a tags in grid   */
+.btn > a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+/*			For all column content in grid 	*/
+.column-content {
+    padding: 14px 25px;
+    margin-top: -5px;
+    background-color: white;
+}
+
+/*  	For all Column Images in grid 	*/
+.column > img {
+    width: 100%;
+    height: 43%;
+    position: relative;
+}
+
+/*		For responsive grid 		*/
+
+@media screen and (max-width: 840px) {
+    .grid {
+        display: block;
+    }
+    .column {
+        width: 100%;
+        margin: 10px;
+    }
+    .content-container-1 p {
+        width: auto;
+    }
+    .content-container-2 > p {
+        width: 100%;
+    }
+}
+.column-content > h3 {
+    font-size: 25px;
+}
+.column-content > p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    overflow: hidden;
+}
+.image-text {
+    height: 3em;
+    line-height: 29px;
+    color: rgb(186, 187, 189);
+    font-family: 'Montserrat', sans-serif;
+}
