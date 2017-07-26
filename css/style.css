@@ -1,5 +1,6 @@
 body {
-	width: 1340px;
+    margin:0;
+	width: 100%;
 	background-color: #f1f2f2;
 }
 
@@ -42,7 +43,7 @@ p.title-heading {
 
 p.content-text {
     font-size: 25px;
-    width: 1108px;
+    /*width: 1108px;*/
     margin: auto;
 }
 
@@ -60,6 +61,7 @@ p.content-text {
     font-style: italic;
     padding-left: 20px;
     margin: 65px auto;
+    cursor: pointer;
 
 }
 
@@ -102,6 +104,7 @@ p.sub-head-main-content {
 .grid {
     display: flex;
     margin: 72px 9% 100px 9%;
+    align-items: stretch;
 }
 
 /*For all h2 in content-container*/
@@ -128,7 +131,8 @@ p.sub-head-main-content {
 /*For container column in grid*/
 .column {
     margin: 0 5px;
-    width: 90%;
+    width: 100%;
+    padding: 0 5px;
 }
 
 /*For button in grid*/
@@ -164,11 +168,40 @@ p.sub-head-main-content {
     position: relative;
 }
 
+.footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 /*		For responsive grid 		*/
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1060px)
+{
+    .column {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .btn {
+        margin-top: 180px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .bg {
+        width: 100%;
+    }
     .grid {
         display: block;
+    }
+
+    .btn {
+        margin-top: 120px; 
+    }
+
+    p.content-text {
+        width: 100%;
     }
     .column {
         width: 100%;
@@ -179,6 +212,11 @@ p.sub-head-main-content {
     }
     .content-container-2 > p {
         width: 100%;
+    }
+
+    .image-text {
+        width: 100%;
+        margin: auto;
     }
 }
 .column-content > h3 {
